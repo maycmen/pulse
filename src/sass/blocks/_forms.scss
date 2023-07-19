@@ -1,0 +1,21 @@
+.feed-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    input {
+        height: 50px;
+        border-radius: 5px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        border: none; /* убираем линию границы */
+        padding: 0 20px; /* чтобы текст не притягивался к левому краю */
+        color: #4B4B4B;
+        font-size: 14px;
+        font-weight: 400;
+        &:nth-child(3) { /* для последнего импута другой марджин */
+            margin-bottom: 20px;
+        }
+
+    }
+}
