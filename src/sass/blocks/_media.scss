@@ -18,8 +18,12 @@
         .feed-form {
             margin: 30px auto;
         }
+}   
+    
+    .owl-nav {
+        display: none;
     }
-}
+}    
 @media (max-width: 767px) {
     .header {
         &__logo {
@@ -66,6 +70,17 @@
                 text-align: center;
                 font-size: 25px;
             }  
+        }
+    }
+    .carousel {
+        .owl-carousel {
+            width: 520px;
+            .item {
+                img {
+                    // display: block;
+                    width: 500px;
+            }
+            }
         }
     }
 }
@@ -132,5 +147,16 @@
             width: 280px;
         }  
     }  
+    .carousel {
+        .owl-carousel {
+            width: 320px;
+            .item {
+                img {
+                    // display: block;
+                    width: 280px;
+            }
+            }
+        }
+    }
 }    
 
